@@ -1,0 +1,27 @@
+/*color palette*/
+
+:root {
+	--main-color:  #6200EE;
+	--light-color:  #EDEEF0;
+}
+
+.bg-main{
+	background-color: var(--main-color);
+}
+
+.bg-light-color{
+	background-color: var(--light-color);
+}
+
+.btn-main{
+	border:  2px solid white;
+	color:  white;
+}
+
+.btn-main:hover{
+	color: white;
+}
+
+.text-color-main{
+	color:  var(--main-color);
+}
